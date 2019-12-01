@@ -10,6 +10,7 @@ password: no password empty string
 
 port: based on xampp mysql port
 
+# run this command after uploading the database to phpmyadmin server from project location terminal
 python manage.py migrate
 
 #for log into admin account
