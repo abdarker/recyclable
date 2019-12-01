@@ -1,0 +1,23 @@
+pip install virtualenvwrapper-win
+
+mkvirtualenv abdarker
+
+pip install django
+
+django-admin --version
+
+#create project
+django-admin startproject projectname
+
+#create app
+python manage.py startapp appname
+
+# requirements
+
+pip freeze
+
+Django==2.2.6
+django-crispy-forms==1.8.1
+mysqlclient==1.4.6
+pytz==2019.2
+sqlparse==0.3.0
