@@ -1,0 +1,10 @@
+{% extends "recyclable_app/base.html" %}
+{% block content %}
+    {% for post in posts %}
+    
+    <div>
+        <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+        <small class="text-muted">{{ post.date_posted }}</small>
+    </div>
+    {% endfor %}
+{% endblock content %}

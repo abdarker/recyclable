@@ -1,0 +1,19 @@
+project name : recyclable
+
+app name: recyclable_app
+
+database name: mydb
+
+database username: root
+
+password: no password empty string
+
+port: based on xampp mysql port
+
+python manage.py migrate
+
+#for log into admin account
+superuser: abdarker
+pass: asdfghjkl
+
+
